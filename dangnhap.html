@@ -32,24 +32,26 @@
                             <img src="images/dangnhap/userlogin.png" alt="Login Image" width="300">
                         </td>
                     </tr>
-
-                    <tr>
-                        <td><label for="email">Email:</label></td>
-                        <td>
-                            <input type="text" id="email" name="email" placeholder="Nhập email">
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td><label for="psw">Mật khẩu:</label></td>
-                        <td>
-                            <input type="password" id="psw" name="psw" placeholder="Nhập mật khẩu">
-                        </td>
-                    </tr>
+                    <form id="myForm" onsubmit="return formValidate();">
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td>
+                                <input type="text" id="email" name="email" placeholder="Nhập email">
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td><label for="psw">Mật khẩu:</label></td>
+                            <td>
+                                <input type="password" id="psw" name="psw" placeholder="Nhập mật khẩu">
+                            </td>
+                        </tr>
+                    </form>
+                    
     
                     <tr>
                         <td colspan="2" style="text-align:center;">
-                            <input type="submit" value="Đăng Nhập">
+                            <input id = "inputDN" type="submit" value="Đăng Nhập">
                             <input type="reset" value="Hủy">
                         </td>
                     </tr>
@@ -71,7 +73,7 @@
     <footer>
         <p>2021 Bản quyền thuộc về FreeezeVN. <a href ="trangchu.html">facebook</a> <a href = "trangchu.html">twitter</a> <a href = "trangchu.html">pinterest</a> <a href ="trangchu.html">Về Đầu Trang</a></p>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -24,28 +24,26 @@
             <a href="dangky.html">Đăng Ký</a>
             <a href="lienhe.html">Liên Hệ</a>
         </nav>
-        <div>
-            <input type="text" placeholder="Nhập nội dung cần tìm">
-            <button id="search"><i class="fa fa-search"></i></button>
-            <button id="cart"><i class="fa fa-shopping-cart"></i></button>
-        </div>
+        <form id="searchForm" action="timkiem.html" method="get">
+            <div>
+                <input id="searchInput"name="q"type="text" placeholder="Nhập nội dung cần tìm">
+                <button id="search"><i class="fa fa-search"></i></button>
+                <button id="cart"><i class="fa fa-shopping-cart"></i></button>
+            </div>
+        </form>
 
     </header>
     <main class="one-col">
         <section>
-            <img src="images/trangchu/bg-home.jpg" width="1190">
+            <img src="images/trangchu/bg-home.jpg" alt="logo">
         </section>
-        <section id="loai1">
+        <section>
             <h1 id="rule1">Sản Phẩm Mới</h1>
-            <div id="bentrai1">
-                <h2 id="rule2">Sữa chua tốt cho sức khỏe</h2>
-                <img id="yogurt" src="images/trangchu/yogurt.jpg" alt="logo">
-            </div>
-            <div id="benphai1">
-                <article class="ar">
-                    <aside><p id="vanban1">Sữa chua là một loại thực phẩm được tạo ra từ quá trình lên men sữa của các vi khuẩn. Hầu hết các loại sữa đều có thể dùng làm sữa chua, tuy nhiên sữa bò là được dùng nhiều hơn hết. Sữa chua hay được gọi là yaourt (là da-ua). Chúng được lên men từ sữa động vật nhờ vi khuẩn lactic, đã được khử chất béo và thanh trùng ở nhiệt độ 80 - 90 độ C.Sữa chua có 2 loại cơ bản là sữa chua có đường và sữa chua không đường. Bên cạnh đó còn có loại sữa chua uống, sữa chua men sống. Váng sữa thường được chia làm 3 loại dựa vào hàm lượng chất béo có trong sản phẩm: váng sữa có hàm lượng chất béo cao nhất (35-50% chất béo), váng sữa thông thường (10-30% chất béo), váng sữa nguyên kem (6-15% chất béo). <a href="images/trangchu/yogurt.jpg">Xem chi tiết</a></p></aside>
-                </article>
-            </div>
+            <h2 id="rule2">Sữa chua tốt cho sức khỏe</h2>
+            <img id="yogurt" src="images/trangchu/yogurt.jpg" alt="logo">
+            <article class="ar">
+                <aside><p id="vanban1">Sữa chua là một loại thực phẩm được tạo ra từ quá trình lên men sữa của các vi khuẩn. Hầu hết các loại sữa đều có thể dùng làm sữa chua, tuy nhiên sữa bò là được dùng nhiều hơn hết. Sữa chua hay được gọi là yaourt (là da-ua). Chúng được lên men từ sữa động vật nhờ vi khuẩn lactic, đã được khử chất béo và thanh trùng ở nhiệt độ 80 - 90 độ C.Sữa chua có 2 loại cơ bản là sữa chua có đường và sữa chua không đường. Bên cạnh đó còn có loại sữa chua uống, sữa chua men sống. Váng sữa thường được chia làm 3 loại dựa vào hàm lượng chất béo có trong sản phẩm: váng sữa có hàm lượng chất béo cao nhất (35-50% chất béo), váng sữa thông thường (10-30% chất béo), váng sữa nguyên kem (6-15% chất béo). <a href="images/trangchu/yogurt.jpg">Xem chi tiết</a></p></aside>
+            </article>
         </section>
         <section>
             <h1 id="rule1">Góc Thành Viên</h1>
@@ -91,7 +89,7 @@
         <a href="trangchu.html"><img id="gotop" src="TH_B2/top.png" alt="logo"></a>
     </footer>
       
-
+    <script src="script.js"></script>
 
 </body>
 </html>
