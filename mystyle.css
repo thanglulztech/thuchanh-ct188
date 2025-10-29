@@ -1,10 +1,11 @@
 body{
+    display : grid;
     grid-template-areas:"header-cell" "nav-cell" "main-cell" "footerr-cell" ;
 }
 
 
 header{
-    background-image: url("TH_B2/header.png");
+    background-image: url("header.png");
     height: 100px;
     grid-area: header-cell;
 }
@@ -105,7 +106,7 @@ nav a:hover{
     background-color: #ffff80;
     color:#ed4190;
 }
-div{
+#timkiemthongtin{
     padding-top: 3px;
     float:right;
 
@@ -174,12 +175,38 @@ footer{
     float:right;
     width:69%;
     font-size: 24px;
+    margin-bottom: 5px;
+    padding:0px 5px;
+    
 }
 #video{
     float:right;
     width:30%;
 }
-#vanban1{
+#vanban2{
     float:left;
     width:69%;
+    font-size: 24px;
+    margin-bottom: 5px;
+    padding:0px 5px;
+}
+#noidung{
+    column-count: 2;
+
+}
+#rule3{
+    break-before: column;
+}
+#khung{
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.bentrong {
+    display: inline-block;
+    border: 1px solid #ed4190;
+    border-radius: 5px;
+    padding-top: 5px;
+    width: 24%;
+    text-align: center;
 }
