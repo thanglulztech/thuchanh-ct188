@@ -210,3 +210,36 @@ footer{
     width: 24%;
     text-align: center;
 }
+/*----------------------------------------------------------------------
+*/
+.sec{
+    display : flex;
+    margin:0;
+    padding: 0;
+    color :#ed4190;   
+}
+.sanpham{
+    display: flex;
+    margin : 3px;
+    border: 1px solid #dbd7d9;
+    padding :0px;
+    color :#ed4190;
+    background: linear-gradient(to top, #cddc39 0%, transparent 10%);
+    flex: 1 1 0;
+    text-align: center;
+    flex-direction: column;
+   
+}
+.imgsanpham{
+    display: block;  
+    margin : auto;
+}
+span{
+    display:block;
+    padding : 3px;
+    width :100%;
+    color: black;
+    text-align: center;
+    line-height: 2;
+
+}
